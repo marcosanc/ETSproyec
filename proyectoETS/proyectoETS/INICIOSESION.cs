@@ -22,5 +22,15 @@ namespace proyectoETS
 
 
         }
+
+        private void iniciar_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
