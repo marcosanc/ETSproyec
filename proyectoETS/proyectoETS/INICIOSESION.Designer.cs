@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textcon = new System.Windows.Forms.TextBox();
             this.textusu = new System.Windows.Forms.TextBox();
+            this.REGISTRO = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // iniciar
@@ -49,19 +50,20 @@
             // 
             // salir
             // 
-            this.salir.Location = new System.Drawing.Point(157, 197);
+            this.salir.Location = new System.Drawing.Point(233, 197);
             this.salir.Name = "salir";
             this.salir.Size = new System.Drawing.Size(75, 23);
             this.salir.TabIndex = 1;
             this.salir.Text = "SALIR";
             this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(38, 18);
+            this.label1.Location = new System.Drawing.Point(67, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 21);
             this.label1.TabIndex = 2;
@@ -90,7 +92,7 @@
             // 
             // textcon
             // 
-            this.textcon.Location = new System.Drawing.Point(120, 126);
+            this.textcon.Location = new System.Drawing.Point(134, 126);
             this.textcon.Name = "textcon";
             this.textcon.PasswordChar = '*';
             this.textcon.Size = new System.Drawing.Size(100, 20);
@@ -98,16 +100,27 @@
             // 
             // textusu
             // 
-            this.textusu.Location = new System.Drawing.Point(120, 80);
+            this.textusu.Location = new System.Drawing.Point(134, 76);
             this.textusu.Name = "textusu";
             this.textusu.Size = new System.Drawing.Size(100, 20);
             this.textusu.TabIndex = 6;
+            // 
+            // REGISTRO
+            // 
+            this.REGISTRO.Location = new System.Drawing.Point(120, 197);
+            this.REGISTRO.Name = "REGISTRO";
+            this.REGISTRO.Size = new System.Drawing.Size(75, 23);
+            this.REGISTRO.TabIndex = 7;
+            this.REGISTRO.Text = "REGISTRO";
+            this.REGISTRO.UseVisualStyleBackColor = true;
+            this.REGISTRO.Click += new System.EventHandler(this.button1_Click);
             // 
             // INICIOSESION
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 232);
+            this.ClientSize = new System.Drawing.Size(320, 249);
+            this.Controls.Add(this.REGISTRO);
             this.Controls.Add(this.textusu);
             this.Controls.Add(this.textcon);
             this.Controls.Add(this.label3);
@@ -132,5 +145,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textcon;
         private System.Windows.Forms.TextBox textusu;
+        private System.Windows.Forms.Button REGISTRO;
     }
 }

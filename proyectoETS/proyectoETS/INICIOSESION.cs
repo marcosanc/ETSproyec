@@ -32,5 +32,18 @@ namespace proyectoETS
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registro Nuevo = new Registro();
+            Nuevo.Show();
+
+        }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
