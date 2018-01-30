@@ -4,22 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace proyectoETS
+namespace WindowsFormsApp1
 {
     static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
-        /// 
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new INICIOSESION());
+            Application.Run(new Form1());
         }
-
-
     }
 }
