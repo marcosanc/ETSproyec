@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proyectoETS
 {
-    public partial class INICIOSESION : Form
+    public partial class Iniciosesion : Form
     {
-        public INICIOSESION()
+        public Iniciosesion()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace proyectoETS
 {
-    partial class INICIOSESION
+    partial class Iniciosesion
     {
         /// <summary>
         /// Required designer variable.
