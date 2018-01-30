@@ -10,25 +10,14 @@ using System.Windows.Forms;
 
 namespace proyectoETS
 {
-    public partial class Iniciosesion : Form
+    public partial class Menu : Form
     {
-        public Iniciosesion()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void INICIOSESION_Load(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void iniciar_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void cambiarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
