@@ -40,6 +40,7 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,8 @@
             // 
             this.opcionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem,
-            this.salirToolStripMenuItem});
+            this.salirToolStripMenuItem,
+            this.salirItem1});
             this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
             this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.opcionesToolStripMenuItem.Text = "Opciones";
@@ -131,7 +133,16 @@
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Text = "Cerrar Sesión";
+            // 
+            // salirItem1
+            // 
+            this.salirItem1.AccessibleName = "BarSalir";
+            this.salirItem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.salirItem1.Name = "salirItem1";
+            this.salirItem1.Size = new System.Drawing.Size(152, 22);
+            this.salirItem1.Text = "Salir";
+            this.salirItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
             // 
             // Menu
             // 
@@ -166,5 +177,6 @@
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirItem1;
     }
 }

@@ -21,5 +21,11 @@ namespace proyectoETS
         {
 
         }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
     }
 }

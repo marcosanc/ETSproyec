@@ -29,13 +29,13 @@ namespace proyectoETS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*Iniciosesion iniciosesion = new Iniciosesion();
+            Iniciosesion iniciosesion = new Iniciosesion();
             iniciosesion.Show();
-            this.Hide();*/
-
-            Menu menu = new Menu();
-            menu.Show();
             this.Hide();
+
+            /*Menu menu = new Menu();
+            menu.Show();
+            this.Hide();*/
         }
     }
 }
