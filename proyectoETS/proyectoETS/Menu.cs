@@ -21,5 +21,19 @@ namespace proyectoETS
         {
 
         }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevoUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Usuarios Nuevo = new Usuarios();
+
+            Nuevo.MdiParent = this;
+
+            Nuevo.Show();
+        }
     }
 }

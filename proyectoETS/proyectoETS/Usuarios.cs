@@ -10,23 +10,22 @@ using System.Windows.Forms;
 
 namespace proyectoETS
 {
-    public partial class Registro : Form
+    public partial class Usuarios : Form
     {
-        public Registro()
+        public Usuarios()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Usuarios_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            //this.Hide();
-            //INICIOSESION Nuevo = new INICIOSESION ();
-            //Nuevo.Show();
+
         }
     }
 }
